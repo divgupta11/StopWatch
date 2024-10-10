@@ -1,0 +1,21 @@
+# StopWatch
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-euiv="X-UA-Compatible" content="IE=edge">
+<meta name="Content="width=device-width,initial-Scale=1.1">
+ <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="box">
+<h2>Stopwatch</h2>
+<h1 id="stopwatch">00:00:00<h1>
+<button onclick="start()" Style="background-color:green;">Start</button>
+<button onclick="stop()"Style="background-color:red;">Stop</button>
+<button onclick="reset()"Style="background-color:royalblue;">Reset</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
